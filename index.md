@@ -237,3 +237,35 @@ git pull
 ```
 
 ![6.05](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.05(1).png)
+
+### Exercise 6
+
+```console
+git commit
+git commit
+git push
+```
+
+![6.06](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.06.png)
+
+### Exercise 7
+
+```console
+git clone
+git fakeTeamwork
+git commit
+git pull --rebase
+git push
+```
+
+![6.07](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.07.png)
+
+### Exercise 8
+
+```console
+git reset --hard o/main
+git checkout -b feature C2
+git push origin feature
+```
+
+![6.08](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.08.png)
