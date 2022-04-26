@@ -193,3 +193,47 @@ git branch -f three C2
 ```
 
 ![5.03](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/5.03.png)
+
+## Push & Pull -- Git Remotes!
+
+### Exercise 1
+
+```console
+git clone
+```
+
+![6.01](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.01.png)
+
+### Exercise 2
+
+```console
+git commit
+git checkout o/main
+git commit
+```
+
+![6.02](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.02.png)
+
+### Exercise 3
+
+```console
+git fetch
+```
+
+![6.03](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.03.png)
+
+### Exercise 4
+
+```console
+git pull
+```
+
+![6.04](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.04.png)
+
+### Exercise 5
+
+```console
+git pull
+```
+
+![6.05](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.05(1).png)
