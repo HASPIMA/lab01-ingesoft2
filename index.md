@@ -1,5 +1,7 @@
 # Lab 1: Git Commands
 
+`Author:` Harrison Pinto
+
 ## Introductory Sequence
 
 ### Exercise 1
@@ -269,3 +271,90 @@ git push origin feature
 ```
 
 ![6.08](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/6.08.png)
+
+
+## To Origin And Beyond -- Advanced Git Remotes!
+
+### Exercise 1
+
+```console
+git fetch
+git rebase o/main side1
+git rebase side1 side2
+git rebase side2 side3
+git rebase side3 main
+git push
+```
+
+![7.01](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.01.png)
+
+### Exercise 2
+
+```console
+git checkout main
+git pull
+git merge side1
+git merge side2
+git merge side3
+git push
+```
+
+![7.02](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.02.png)
+
+### Exercise 3
+
+```console
+git checkout -b side o/main
+git commit
+git pull --rebase
+git push
+```
+
+![7.03](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.03.png)
+
+### Exercise 4
+
+```console
+git push origin main
+git push origin foo
+```
+
+![7.04](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.04.png)
+
+### Exercise 5
+
+```console
+git push origin main^:foo
+git push origin foo:main
+```
+
+![7.05](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.05.png)
+
+### Exercise 6
+
+```console
+git fetch origin main~1:foo
+git fetch origin foo:main
+git checkout foo
+git merge main
+```
+
+![7.06](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.06.png)
+
+### Exercise 7
+
+```console
+git push origin :foo
+git fetch origin :bar
+```
+
+![7.07](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.07.png)
+
+### Exercise 8
+
+```console
+git pull origin bar:foo
+git pull origin main:side
+```
+
+![7.08](https://raw.githubusercontent.com/HASPIMA/lab01-ingesoft2/master/7.08.png)
